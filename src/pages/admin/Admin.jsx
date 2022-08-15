@@ -4,8 +4,7 @@ const Admin = () => {
   return (
     <div>
       <h1>Admin</h1>
-      <h2>adasdsadsa</h2>
-      <h3>asdasdasdas</h3>
+      <h1>index del panel de admin</h1>
     </div>
   );
 };
