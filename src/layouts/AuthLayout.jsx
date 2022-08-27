@@ -2,9 +2,9 @@ import React from "react";
 
 const AuthLayout = ({ children }) => {
   return (
-    <div>
-      <h1>AuthLayout</h1>
-      {children}
+    <div className="flex flex-col items-center bg-gray-50 py-2 px-4">
+      Layout de AuthLayout
+      <div className="flex w-full">{children}</div>
     </div>
   );
 };
